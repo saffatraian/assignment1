@@ -189,4 +189,55 @@ nav li a {
 }
 .subspfp {
     border-radius: 48px;
+    margin-bottom: 50px;
+}
+
+/* contact form */
+
+.getintouch {
+    font-size: 97px;
+    font-weight: bold;
+}
+.info input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    height: 64px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    display: block;
+}
+.get-in-touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 141px;
+}
+label {
+    font-size: 18px;
+    font-weight: 500;
+}
+/* footer */
+footer {
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+    text-align: center;
+}
+.footer-logo {
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #4E47FF;
+}
+.footer-description {
+    font-size: 16px;
+    color: rgba(137, 135, 161, 1);
+    margin-bottom: 30px;
+}
+.links a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    margin: 0px 25px;
+    justify-content: space-between;
 }
