@@ -46,13 +46,15 @@ body {background-color: #F5F8FF;}
 .live-preview-pfp {
     border-radius: 48px;
 }
+
 /* productive-user */
 .productive-user{
     background-color: rgba(78, 71, 255, 0.1);
     padding: 80px 50px;
-    margin: 141px 116px; 
+    margin: 116px 141px; 
     border-radius: 24px;
     justify-content: center;
+    display: flexbox;
 }
 .productive-user-title {
     font-weight: bold;
@@ -98,9 +100,7 @@ nav ul {
 nav li a {
     text-decoration: none;
 }
-btn-primary {
-    margin-left: 20px;
-}
+
 /* banner */
 .banner {
     background-image: url('../Assets/Hero-bg.png');
@@ -121,4 +121,51 @@ btn-primary {
     text-align: center;
     margin-top: 158px;
     margin-bottom: 152px;
+}
+.reviews-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+/* reviews style */
+.reviews-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin: 116px 141px;
+    align-items: center;
+
+    margin-top: 10px;
+}
+.comment {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.userpfp {
+    border-radius: 50%;
+    height: 100%; 
+    margin-right: 5px;
+}
+.review {
+    font-size: 24px;
+}
+.reviewp {
+    font-size: 16px;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+.username {
+    font-size: 16px;
+    margin-bottom: 1px;
+    color: #757575;
+}
+.date {
+    font-size: 16px;
+    margin-top: 1px;
+    color: #757575;
 }
